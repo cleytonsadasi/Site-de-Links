@@ -69,7 +69,7 @@ h1 {
   width: 200px;
   background-position: center;
   position: relative;
-  left: 19%;
+  left: 40px;
   }
 
   .buttonSocial {
@@ -77,7 +77,30 @@ h1 {
   margin-bottom: 25px;
   position: relative;
   margin-top: 5%;
-  left: 11%;
+  left: 16%;
   cursor: pointer;
   }
+
+  #content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  left: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  }
+
+  h1 {
+  color: #ffffff;
+  font-family: "Open Sans", "sans-serif";
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  left: 40px;
+  }
+
 }
